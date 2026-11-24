@@ -1,0 +1,26 @@
+---
+title: "Using Quarto Listings in a Portfolio"
+format: html
+editor: visual
+---
+
+## What Are Quarto Listings?
+
+> **Quarto Listings** automatically generate structured, index-style collections (such as project feeds, blog posts, case studies, or notes) from Quarto documents or metadata. Instead of manually maintaining links and summaries in multiple places, a listing can pull titles, dates, categories/tags, descriptions, and reading times dynamically.
+
+## How to Use Listings on a Portfolio Site
+
+- **Organize work by topic:**
+  - Tag entries by tool or theme (e.g., `R`, `SQL`, `GA4`, `Case-31`, `CEP`) so visitors can scan what you built.
+- **Keep a landing feed:**
+  - Use a `grid`, `default`, or `table` listing layout to spotlight recent analyses or coursework artifacts cleanly.
+- **Scale without clutter:**
+  - Add new `.qmd` or `.md` items to a folder and let the listing update automatically on render.
+
+## Example Portfolio Index Table
+
+| Artifact | Topic / Tags | Purpose |
+|:-----------------------|:-----------------------|:-----------------------|
+| Home Profile | `Portfolio`, `MSDM` | Bio, education, skills, and career goals |
+| CEP & Case 31 Portal | `CEP`, `Case-31`, `Analytics` | Culminating project & analytical framework |
+| CSS & SCSS Guide | `Quarto`, `CSS`, `SCSS` | Visual customization approach |

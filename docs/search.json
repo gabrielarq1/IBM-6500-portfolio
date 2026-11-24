@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "listings.html",
+    "href": "listings.html",
+    "title": "Using Quarto Listings in a Portfolio",
+    "section": "",
+    "text": "Quarto Listings automatically generate structured, index-style collections (such as project feeds, blog posts, case studies, or notes) from Quarto documents or metadata. Instead of manually maintaining links and summaries in multiple places, a listing can pull titles, dates, categories/tags, descriptions, and reading times dynamically."
+  },
+  {
+    "objectID": "listings.html#what-are-quarto-listings",
+    "href": "listings.html#what-are-quarto-listings",
+    "title": "Using Quarto Listings in a Portfolio",
+    "section": "",
+    "text": "Quarto Listings automatically generate structured, index-style collections (such as project feeds, blog posts, case studies, or notes) from Quarto documents or metadata. Instead of manually maintaining links and summaries in multiple places, a listing can pull titles, dates, categories/tags, descriptions, and reading times dynamically."
+  },
+  {
+    "objectID": "listings.html#how-to-use-listings-on-a-portfolio-site",
+    "href": "listings.html#how-to-use-listings-on-a-portfolio-site",
+    "title": "Using Quarto Listings in a Portfolio",
+    "section": "How to Use Listings on a Portfolio Site",
+    "text": "How to Use Listings on a Portfolio Site\n\nOrganize work by topic:\n\nTag entries by tool or theme (e.g., R, SQL, GA4, Case-31, CEP) so visitors can scan what you built.\n\nKeep a landing feed:\n\nUse a grid, default, or table listing layout to spotlight recent analyses or coursework artifacts cleanly.\n\nScale without clutter:\n\nAdd new .qmd or .md items to a folder and let the listing update automatically on render."
+  },
+  {
+    "objectID": "listings.html#example-portfolio-index-table",
+    "href": "listings.html#example-portfolio-index-table",
+    "title": "Using Quarto Listings in a Portfolio",
+    "section": "Example Portfolio Index Table",
+    "text": "Example Portfolio Index Table\n\n\n\n\n\n\n\n\nArtifact\nTopic / Tags\nPurpose\n\n\n\n\nHome Profile\nPortfolio, MSDM\nBio, education, skills, and career goals\n\n\nCEP & Case 31 Portal\nCEP, Case-31, Analytics\nCulminating project & analytical framework\n\n\nCSS & SCSS Guide\nQuarto, CSS, SCSS\nVisual customization approach"
+  },
+  {
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "MSDM Culminating Experience & Case 31 Portal",
+    "section": "",
+    "text": "This page serves as a portal for our Tarkington Business Futures Institute Culminating Experience Project (CEP Group 8, advised by Dr. Lin), examining AI consultant tank simulation and synthetic AI respondent validity compared to human benchmarks, alongside Case 31 analytics workflows."
+  },
+  {
+    "objectID": "dashboard.html#project-overview-ai-consultant-tank-simulator-cep",
+    "href": "dashboard.html#project-overview-ai-consultant-tank-simulator-cep",
+    "title": "MSDM Culminating Experience & Case 31 Portal",
+    "section": "",
+    "text": "This page serves as a portal for our Tarkington Business Futures Institute Culminating Experience Project (CEP Group 8, advised by Dr. Lin), examining AI consultant tank simulation and synthetic AI respondent validity compared to human benchmarks, alongside Case 31 analytics workflows."
+  },
+  {
+    "objectID": "dashboard.html#key-metrics-structure",
+    "href": "dashboard.html#key-metrics-structure",
+    "title": "MSDM Culminating Experience & Case 31 Portal",
+    "section": "Key Metrics & Structure",
+    "text": "Key Metrics & Structure\n\n\n\n\n\n\n\n\nWorkstream\nFocus\nStatus / Next Step\n\n\n\n\nCEP Simulator\nSynthetic AI respondent validity vs. human benchmarks\nProposal & simulation metrics in progress\n\n\nCase 31 Pipeline\nData preparation, measurement model, & hypothesis summaries\nStructured analysis tables & Quarto reporting\n\n\nDashboard Portal\nKPI & validity comparison overview\nReady to expand with live data/charts\n\n\n\n\nlibrary(tibble) \n\nWarning: package 'tibble' was built under R version 4.5.3\n\nlibrary(gt)\n\nWarning: package 'gt' was built under R version 4.5.3\n\nportal_summary &lt;- tibble( Component = c(\"CEP AI Consultant Tank\", \"Synthetic vs. Human Validity\", \"Case 31 Workflow\"), Primary_Goal = c( \"Simulate advisory scenarios for marketing decisions\", \"Benchmark AI responses against human respondent baselines\", \"Prepare data and summarize research questions/hypotheses\" ), Deliverable_Format = c(\"Presentation & Portal\", \"Comparative Summary\", \"Quarto Tables & Reports\") )\n\nportal_summary |&gt; gt() |&gt; tab_header(title = \"Portal Deliverable Snapshot\") \n\n\n\n\n\n\n\nPortal Deliverable Snapshot\n\n\nComponent\nPrimary_Goal\nDeliverable_Format\n\n\n\n\nCEP AI Consultant Tank\nSimulate advisory scenarios for marketing decisions\nPresentation & Portal\n\n\nSynthetic vs. Human Validity\nBenchmark AI responses against human respondent baselines\nComparative Summary\n\n\nCase 31 Workflow\nPrepare data and summarize research questions/hypotheses\nQuarto Tables & Reports"
+  },
+  {
+    "objectID": "css-scss.html",
+    "href": "css-scss.html",
+    "title": "Extending Quarto Websites with CSS & SCSS",
+    "section": "",
+    "text": "CSS (Cascading Style Sheets):\n\nControls exact visual rules (colors, spacing, borders, typography, card/callout styling) across rendered HTML pages.\n\nSCSS (Sassy CSS):\n\nExtends CSS with variables, nesting, and partials, making theme customization cleaner and easier to maintain when paired with Quarto themes or custom styling rules."
+  },
+  {
+    "objectID": "css-scss.html#why-use-css-and-scss-in-quarto",
+    "href": "css-scss.html#why-use-css-and-scss-in-quarto",
+    "title": "Extending Quarto Websites with CSS & SCSS",
+    "section": "",
+    "text": "CSS (Cascading Style Sheets):\n\nControls exact visual rules (colors, spacing, borders, typography, card/callout styling) across rendered HTML pages.\n\nSCSS (Sassy CSS):\n\nExtends CSS with variables, nesting, and partials, making theme customization cleaner and easier to maintain when paired with Quarto themes or custom styling rules."
+  },
+  {
+    "objectID": "css-scss.html#practical-ways-to-apply-them",
+    "href": "css-scss.html#practical-ways-to-apply-them",
+    "title": "Extending Quarto Websites with CSS & SCSS",
+    "section": "Practical Ways to Apply Them",
+    "text": "Practical Ways to Apply Them\n\nCustom .css file (styles.css): Link via format: html: css: styles.css in _quarto.yml for targeted tweaks (such as custom callout borders or spacing).\nSCSS variables & rules: Define color/font variables once and reuse them consistently across headings, callouts, and components without repeating hex codes.\nScoped classes: Add {.highlight-box} to specific blocks in .qmd so styles apply only where needed."
+  },
+  {
+    "objectID": "css-scss.html#live-styled-example",
+    "href": "css-scss.html#live-styled-example",
+    "title": "Extending Quarto Websites with CSS & SCSS",
+    "section": "Live Styled Example",
+    "text": "Live Styled Example\n\nStyling Check: Custom CSS/SCSS lets you keep default Quarto layout structure while matching your personal or brand visual identity cleanly."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Gabriela Raygoza Quintero",
+    "section": "",
+    "text": "Gabriela Raygoza Quintero\n\n\nI am a graduate student pursuing a Master of Science in Digital Marketing (MSDM) at Cal Poly Pomona, building on a bachelor’s degree in Spanish from Cal State San Marcos. I focus on turning marketing research, survey data, and digital analytics into clear, actionable decisions."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Gabriela Raygoza Quintero",
+    "section": "",
+    "text": "Gabriela Raygoza Quintero\n\n\nI am a graduate student pursuing a Master of Science in Digital Marketing (MSDM) at Cal Poly Pomona, building on a bachelor’s degree in Spanish from Cal State San Marcos. I focus on turning marketing research, survey data, and digital analytics into clear, actionable decisions."
+  },
+  {
+    "objectID": "index.html#career-aspirations",
+    "href": "index.html#career-aspirations",
+    "title": "Gabriela Raygoza Quintero",
+    "section": "Career Aspirations",
+    "text": "Career Aspirations\nI aim to work in digital marketing analytics, consumer insights, or marketing operations bringing a passion for community empowerment, inclusive marketing, and building meaningful connections with diverse audiences."
+  },
+  {
+    "objectID": "index.html#core-skills",
+    "href": "index.html#core-skills",
+    "title": "Gabriela Raygoza Quintero",
+    "section": "Core Skills",
+    "text": "Core Skills\n\nAnalytics & Programming: R (tidyverse, readr, dplyr, tidyr, gt), SQL, Google BigQuery, Google Analytics 4 (GA4)\nSurvey & Research Methods: Qualtrics survey design, reliability/factor analysis, CFA/SEM workflows, Case 31 data preparation\nPublishing & Reproducibility: Quarto (.qmd, Revealjs, websites), RStudio, Git & GitHub, Zotero"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Gabriela Raygoza Quintero",
+    "section": "Education",
+    "text": "Education\n\nM.S. in Digital Marketing (MSDM) — California State Polytechnic University, Pomona (Cal Poly Pomona)\nB.A. in Spanish — California State University, San Marcos (Cal State San Marcos)"
+  }
+]

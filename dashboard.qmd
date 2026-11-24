@@ -1,0 +1,30 @@
+---
+title: "MSDM Culminating Experience & Case 31 Portal"
+format: html
+editor: visual
+---
+
+## Project Overview: AI Consultant Tank Simulator (CEP)
+
+This page serves as a portal for our **Tarkington Business Futures Institute** Culminating Experience Project (**CEP Group 8**, advised by **Dr. Lin**), examining **AI consultant tank simulation** and **synthetic AI respondent validity compared to human benchmarks**, alongside **Case 31** analytics workflows.
+
+## Key Metrics & Structure
+
+| Workstream | Focus | Status / Next Step |
+|:-----------------------|:-----------------------|:-----------------------|
+| **CEP Simulator** | Synthetic AI respondent validity vs. human benchmarks | Proposal & simulation metrics in progress |
+| **Case 31 Pipeline** | Data preparation, measurement model, & hypothesis summaries | Structured analysis tables & Quarto reporting |
+| **Dashboard Portal** | KPI & validity comparison overview | Ready to expand with live data/charts |
+
+```{r}
+#| label: setup-check 
+#| #| message: false 
+#| #| warning: false
+
+library(tibble) 
+library(gt)
+
+portal_summary <- tibble( Component = c("CEP AI Consultant Tank", "Synthetic vs. Human Validity", "Case 31 Workflow"), Primary_Goal = c( "Simulate advisory scenarios for marketing decisions", "Benchmark AI responses against human respondent baselines", "Prepare data and summarize research questions/hypotheses" ), Deliverable_Format = c("Presentation & Portal", "Comparative Summary", "Quarto Tables & Reports") )
+
+portal_summary |> gt() |> tab_header(title = "Portal Deliverable Snapshot") 
+```

@@ -1,0 +1,24 @@
+---
+title: "Extending Quarto Websites with CSS & SCSS"
+format: html
+editor: visual
+---
+
+## Why Use CSS and SCSS in Quarto?
+
+- **CSS (Cascading Style Sheets)**:
+  - Controls exact visual rules (colors, spacing, borders, typography, card/callout styling) across rendered HTML pages.
+- **SCSS (Sassy CSS)**:
+  - Extends CSS with variables, nesting, and partials, making theme customization cleaner and easier to maintain when paired with Quarto themes or custom styling rules.
+
+## Practical Ways to Apply Them
+
+1.  **Custom `.css` file (`styles.css`):** Link via `format: html: css: styles.css` in `_quarto.yml` for targeted tweaks (such as custom callout borders or spacing).
+2.  **SCSS variables & rules:** Define color/font variables once and reuse them consistently across headings, callouts, and components without repeating hex codes.
+3.  **Scoped classes:** Add `{.highlight-box}` to specific blocks in `.qmd` so styles apply only where needed.
+
+## Live Styled Example
+
+::: highlight-box
+**Styling Check:** Custom CSS/SCSS lets you keep default Quarto layout structure while matching your personal or brand visual identity cleanly.
+:::

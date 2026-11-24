@@ -1,0 +1,77 @@
+/* Gothic Red & Black Palette */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+body {
+  background-color: #0d0d0f;
+  color: #e8e6e3;
+  font-family: 'Lora', Georgia, serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #141418 !important;
+  border-bottom: 1px solid #8b0000;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  font-family: 'Cinzel', Georgia, serif;
+  letter-spacing: 0.05em;
+  color: #f2f0ed !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #d92638 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: 'Cinzel', Georgia, serif;
+  color: #f5f2eb;
+  letter-spacing: 0.03em;
+}
+
+h2 {
+  border-bottom: 1px solid #7a0c16;
+  padding-bottom: 0.35rem;
+  margin-top: 1.75rem;
+}
+
+/* Links */
+a {
+  color: #d92638;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff4d5e;
+  text-decoration: underline;
+}
+
+/* Custom Highlight Box (used on css-scss.qmd) */
+.highlight-box {
+  background-color: #16161b;
+  border-left: 4px solid #9b111e;
+  border-top: 1px solid #2a1518;
+  border-right: 1px solid #2a1518;
+  border-bottom: 1px solid #2a1518;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  border-radius: 4px;
+}
+
+/* Markdown Tables */
+table {
+  border-color: #3a161a !important;
+}
+
+thead th {
+  background-color: #240b0e !important;
+  color: #f5f2eb !important;
+  font-family: 'Cinzel', Georgia, serif;
+  border-bottom: 2px solid #9b111e !important;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #141418;
+}

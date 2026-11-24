@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Gabriela Raygoza Quintero | Marketing Analytics Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: dashboard.qmd
+        text: CEP & Case 31 Dashboard
+      - href: css-scss.qmd
+        text: CSS & SCSS Styling
+      - href: listings.qmd
+        text: Quarto Listings
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: true 
